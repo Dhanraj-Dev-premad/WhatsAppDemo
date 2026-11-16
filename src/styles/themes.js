@@ -3,7 +3,7 @@ export const lightTheme = {
     primary: '#0857A0',
     secondary: '#648DDB',
     background: '#F7F7FC',
-     //background: 'pink',
+   //  background: 'pink',
     card: '#F5F5F5',
     text: '#121222',
     border: '#DDDDDD',

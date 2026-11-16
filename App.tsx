@@ -1,12 +1,26 @@
 import React from 'react';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import RootNavigation from './src/navigation/RootNavigation';
+import { StatusBar } from 'react-native';
 
 const App = () => {
   return (
-    <SafeAreaProvider>
+     
+      <SafeAreaProvider>
+       
+            <StatusBar
+        translucent
+        backgroundColor="transparent"
+        barStyle="light-content"
+      />
+
+       
+     
      <RootNavigation/>
     </SafeAreaProvider>
+
+    
+    
   );
 };
 
