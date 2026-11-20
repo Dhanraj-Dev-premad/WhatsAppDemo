@@ -15,4 +15,6 @@ const StatuScreen = () => {
 
 export default StatuScreen
 
+
+
 const styles = StyleSheet.create({})
